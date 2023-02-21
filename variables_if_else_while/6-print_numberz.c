@@ -3,22 +3,21 @@
 #include <time.h>
 
 /**
- * main - Prints alphabet
+ * main - Prints base 10 numbers
  * @void: Empty parameter list for main.
  *
- * Description: Prints the alphabet in reverse order
- * Can only use putchar
+ * Description: Prints numbers 0-9
  *
  * Return: 0 for success
 */
 int main(void)
 {
-	char letter = 'z';
+	int num = 48;
 
-	while (letter >= 'a')
+	while (num <= 57)
 	{
-		putchar(letter);
-		letter--;
+		putchar(num);
+		num++;
 	}
 	putchar('\n');
 	return (0);
