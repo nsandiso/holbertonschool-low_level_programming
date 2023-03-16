@@ -1,5 +1,3 @@
- (4 sloc)  60 Bytes
-
 #ifndef _PI_
 #define _PI_
 
